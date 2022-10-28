@@ -1,68 +1,7 @@
 
-dn: ou=Users,dc=sr07a012,dc=utc
+dn: ou=Groups,dc=sr07a012,dc=utc
 objectclass: organizationalUnit
 ou: Users
-
-
-
-dn: uid=cveret,ou=Users,dc=sr07a012,dc=utc
-uid: cveret
-cn: Clément VÉRET
-objectClass: account
-objectClass: posixAccount
-objectClass: top
-objectClass: shadowAccount
-userPassword: {SSHA}304TqdkXtxxsqDSBk9DCGWHV4aJYU7rv
-loginShell: /bin/bash
-uidNumber: 600
-gidNumber: 10000
-homeDirectory: /home/cveret
-
-
-dn: uid=a,ou=Users,dc=sr07a012,dc=utc
-uid: a
-cn: A
-objectClass: account
-objectClass: posixAccount
-objectClass: top
-objectClass: shadowAccount
-userPassword: {SSHA}304TqdkXtxxsqDSBk9DCGWHV4aJYU7rv
-loginShell: /bin/bash
-uidNumber: 601
-gidNumber: 10000
-homeDirectory: /home/cveret
-
-
-
-dn: uid=cveret,ou=Users,dc=sr07a012,dc=utc
-uid: cveret
-cn: Clément VÉRET
-objectClass: account
-objectClass: posixAccount
-objectClass: top
-objectClass: shadowAccount
-userPassword: {SSHA}304TqdkXtxxsqDSBk9DCGWHV4aJYU7rv
-loginShell: /bin/bash
-uidNumber: 602
-gidNumber: 10000
-homeDirectory: /home/cveret
-
-
-
-dn: uid=cveret,ou=Users,dc=sr07a012,dc=utc
-uid: cveret
-cn: Clément VÉRET
-objectClass: account
-objectClass: posixAccount
-objectClass: top
-objectClass: shadowAccount
-userPassword: {SSHA}304TqdkXtxxsqDSBk9DCGWHV4aJYU7rv
-loginShell: /bin/bash
-uidNumber: 603
-gidNumber: 10000
-homeDirectory: /home/cveret
-
-
 
 dn: cn=groupe_td,ou=Groups,dc=sr07a012,dc=utc
 objectClass: posixGroup
