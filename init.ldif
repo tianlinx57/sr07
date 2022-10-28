@@ -1,4 +1,6 @@
-dn: dc=sr07a012,dc=utc
+dn: uid=cveret,ou=Users,dc=sr07a012,dc=utc
+uid: cveret
+cn: Clément VÉRET
 objectClass: account
 objectClass: posixAccount
 objectClass: top
