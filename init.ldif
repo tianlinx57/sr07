@@ -1,7 +1,73 @@
 
-dn: ou=Groups,dc=sr07a012,dc=utc
+dn: ou=Users,dc=sr07a012,dc=utc
 objectclass: organizationalUnit
 ou: Users
+
+
+
+dn: ou=Groups,dc=sr07a012,dc=utc
+objectclass: organizationalUnit
+ou: Groups
+
+
+dn: uid=cveret,ou=Users,dc=sr07a012,dc=utc
+uid: cveret
+cn: Clement VERET
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: shadowAccount
+userPassword: {SSHA}304TqdkXtxxsqDSBk9DCGWHV4aJYU7rv
+loginShell: /bin/bash
+uidNumber: 600
+gidNumber: 10000
+homeDirectory: /home/cveret
+
+
+dn: uid=a,ou=Users,dc=sr07a012,dc=utc
+uid: a
+cn: A
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: shadowAccount
+userPassword: {SSHA}304TqdkXtxxsqDSBk9DCGWHV4aJYU7rv
+loginShell: /bin/bash
+uidNumber: 601
+gidNumber: 10000
+homeDirectory: /home/a
+
+
+
+dn: uid=b,ou=Users,dc=sr07a012,dc=utc
+uid: b
+cn: B
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: shadowAccount
+userPassword: {SSHA}304TqdkXtxxsqDSBk9DCGWHV4aJYU7rv
+loginShell: /bin/bash
+uidNumber: 602
+gidNumber: 10000
+homeDirectory: /home/b
+
+
+
+dn: uid=c,ou=Users,dc=sr07a012,dc=utc
+uid: c
+cn: C
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: shadowAccount
+userPassword: {SSHA}304TqdkXtxxsqDSBk9DCGWHV4aJYU7rv
+loginShell: /bin/bash
+uidNumber: 603
+gidNumber: 10000
+homeDirectory: /home/c
+
+
 
 dn: cn=groupe_td,ou=Groups,dc=sr07a012,dc=utc
 objectClass: posixGroup
@@ -12,7 +78,7 @@ gidNumber: 10000
 dn: cn=groupe_2,ou=Groups,dc=sr07a012,dc=utc
 objectClass: posixGroup
 objectClass: top
-cn: groupe_secondaire
+cn: groupe_2
 gidNumber: 10001
 memberUid: cveret
 
@@ -20,7 +86,7 @@ memberUid: cveret
 dn: cn=groupe_3,ou=Groups,dc=sr07a012,dc=utc
 objectClass: posixGroup
 objectClass: top
-cn: groupe_secondaire
+cn: groupe_3
 gidNumber: 10002
 memberUid: a
 
@@ -28,7 +94,7 @@ memberUid: a
 dn: cn=groupe_4,ou=Groups,dc=sr07a012,dc=utc
 objectClass: posixGroup
 objectClass: top
-cn: groupe_secondaire
+cn: groupe_4
 gidNumber: 10003
 memberUid: b
 
@@ -36,6 +102,6 @@ memberUid: b
 dn: cn=groupe_5,ou=Groups,dc=sr07a012,dc=utc
 objectClass: posixGroup
 objectClass: top
-cn: groupe_secondaire
+cn: groupe_5
 gidNumber: 10004
 memberUid: c
