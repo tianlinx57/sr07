@@ -1,0 +1,10 @@
+dn: dc=sr07a012,dc=utc
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: shadowAccount
+userPassword: {SSHA}304TqdkXtxxsqDSBk9DCGWHV4aJYU7rv
+loginShell: /bin/bash
+uidNumber: 600
+gidNumber: 10000
+homeDirectory: /home/cveret
